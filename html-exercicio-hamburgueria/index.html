@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Burguer Place</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="img/burguer.svg" alt="ícone em formato de hamburguer">
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="cardapio/">Cardapio</a></li>
+                <li><a href="/sobre">Sobre Nós</a></li>
+                <li><a href="/contato">Contato</a></li>
+            </ul>
+            <h1>Burguer Place</h1>
+            <img src="img/hamburguernav.jpg"
+                alt="imagem de sanduiche composto por hamburguer bovino, alface, tomate, cebola, picles e pão com gergilim">
+            <div>
+                <p> Cupom de desconto + entrega grátis</p>
+                <button>Fazer Pedido</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="cardapio" id="cardapio">
+            <h2>Cardápio</h2>
+            <ul>
+                <li><a href="/burguers">Burguers</a></li>
+                <li><a href="/bebidas">Bebidas</a></li>
+                <li><a href="/sobremesas">Sobremesas</a></li>
+            </ul>
+        </section>
+        <section class="burguers" id="burguers">
+            <h3>Burguers</h3>
+            <ul>
+                <li> <strong>Chicken</strong> R$23
+                    <img src="img/chickenburguer.jpg"
+                        alt="sanduiche composto por hamburguer de frango empanado, queijo derreito, alface, tomate, ketchup, mostarda e pão">
+                </li>
+                <li> <strong>Onion</strong> R$25
+                    <img src="img/onionburguer.jpg"
+                        alt="um sanduiche composto por hamburguer bovino,cebola roxa, alface, molho, cebola crispy, pão e com duas fatias de picles por cima ">
+                </li>
+                <li> <strong>Bacon</strong> R$29
+                    <img src="img/baconburguer.jpg"
+                        alt="um sanduiche composto por harmburguer bonivo, tiras de bacon, queijo derretido, picles e pão">
+                </li>
+            </ul>
+        </section>
+        <section class="sobre" id="sobre">
+            <h2>Sobre Nós</h2>
+            <div>
+                <img src="img/mesas.jpg" alt="imagem do salão de um restaurante">
+                <h3>Quem somos</h3>
+                <p class="quem-somos">
+                    A Burguer Place é desde 2010 uma hamburgueria artesanal localizada na cidade de São Paulo.
+                </p>
+            </div>
+            <div>
+                <img src="img/preparação.jpg" alt="mãos de uma pessoa segurando uma carne de hamburguer">
+                <h3>Nossos Produtos</h3>
+                <p class="nossos-produtos">
+                    Somos reconhcidos no mercado brasileiro por possuir carnes de alta qualidade e de diversos tipos.
+
+                    Nossos lanches variam entre tradicionais e vegetarianos.
+                </p>
+            </div>
+            <div>
+                <img src="img/cozinha.jpg" alt="um jovem rapaz preparando harmburguer de carne em um balcão de madeira">
+                <h3>Equipe</h3>
+                <p class="equipe">
+                    Temos uma equipe de 22 pessoas, todas treinadas para que haja um bom atendimento e ótima experiência
+                    do começo ao fim.
+                </p>
+            </div>
+            <div>
+                <img src="img/animals.svg" alt="icone com rosto de um cachorro">
+                <h4>Temos espaço Dog friendly!</h4>
+            </div>
+
+            <div>
+                <img src="img/visa.svg" alt="logo da Visa">
+                <img src="img/mastercard.svg" alt="logo da MasterCard">
+                <img src="img/diners-club.svg" alt="logo da Diners Club">
+                <img src="img/american-express.svg" alt="logo da American Express">
+            </div>
+        </section>
+    </main>
+    <footer class="contato" id="contato">
+        <ul>
+            <li>FAQ</li>
+            <li>Delivery</li>
+            <li>Horários</li>
+        </ul>
+
+        <p class="endereço" id="endereço">
+            <img src="img/location.svg"> Rua Oxford, 1445 - Bela Vista, SP
+            2453-5473
+        </p>
+        <div class="redes-sociais">
+            <a herf="hhtps://www.instagram.com" target="_blank"> <img src="img/instagram (1).svg"
+                    alt="icone do instagram na cor preta"></a>
+            <a herf="hhtps://www.facebook.com" target="_blank"> <img src="img/facebook (1).svg"
+                    alt="icone do facebook na cor preta"></a>
+            <a herf="hhtps://www.whatsapp.com" target="_blank"> <img src="img/whatsapp.svg"
+                    alt="icone do whatsapp na cor preta"></a>
+        </div>
+        <form action="/form-email" method="POST">
+            <input type="text-email" id="text-email" placeholder="Endereço de e-mail" />
+            <button type="submit">Receber</button>
+        </form>
+    </footer>
+
+</body>
+
+</html>
